@@ -1,4 +1,6 @@
 
+
+
 (function (
     global, pool, math, width, chunks, digits, module, define, rngname) {
 
@@ -1202,4 +1204,9 @@ window.requestAnimationFrame(function () {
 
 function handle_undo() {
   game_manager.move(-1);
+}
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
 }
